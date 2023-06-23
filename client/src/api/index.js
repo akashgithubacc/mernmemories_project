@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "https://mernmemories-api.onrender.com";
+const url = "http://localhost:3000/posts";
 
 export const fetchPosts = (page) => axios.get(`${url}?page=${page}`);
 
